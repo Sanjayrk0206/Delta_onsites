@@ -7,11 +7,15 @@ html{
     background-color: chocolate;
     font-family: 'Roboto', sans-serif;
 }
-.image{
-    height: 350px;
-    padding-left: 34%;
-    padding-top: 2%;
+.image-parent{
+    display: flex;
+    justify-content: center;
     background-color: white;
+    height: 400px;
+}
+.image{
+    min-height: 350px;
+    margin-top: 2.5%;
     overflow-y: auto;
     .top{
         margin-left: 15px;
@@ -82,11 +86,40 @@ html{
         }
         #less{
             background-color: orange;
-            margin-left: 2.5%;
         }
         #more{
             background-color: white;
             margin-left: 1%;
+        }
+    }
+}
+@media screen and (max-width: 1440px) {
+    .image{
+        height: 300px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .image{
+        margin-top: 10%;
+        .top{
+            width: 290px;
+        }
+        .salad{
+            width: 290px;
+            margin-left: 15px;
+        }
+        .bacon{
+            width: 290px;
+        }
+        .cheese{
+            width: 310px;
+            margin-left: 5px;
+        }
+        .meat{
+            width: 280px;
+        }
+        .bottom{
+            width: 290px;
         }
     }
 }

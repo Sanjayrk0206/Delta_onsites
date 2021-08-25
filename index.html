@@ -6,19 +6,21 @@
         <link rel="stylesheet" href="Task1.css">
         <script src="Task1.js"></script>
     <body>
-        <div class="image">
-            <div class="top"></div>
-            <div id="bacon-position" style="height: fit-content;"></div>
-            <div id="cheese-position" style="height: fit-content;"></div>
-            <div id="meat-position" style="height: fit-content;"></div>
-            <div id="salad-position" style="height: fit-content;"></div>
-            <div class="bottom"></div>
+        <div class="image-parent">
+            <div class="image">
+                <div class="top"></div>
+                <div id="bacon-position" style="height: fit-content;"></div>
+                <div id="cheese-position" style="height: fit-content;"></div>
+                <div id="meat-position" style="height: fit-content;"></div>
+                <div id="salad-position" style="height: fit-content;"></div>
+                <div class="bottom"></div>
+            </div>
         </div>
         <div class="control">
             <label id="head">Current Price: Rs.<h4 id="price" style="display: inline;">10.00</h4></label>
             <section>
                 <label>Salad</label>
-                <button id="less" onclick="less('salad')">Less</button>
+                <button id="less"  style="margin-left: 32px;" onclick="less('salad')">Less</button>
                 <button id="more" onclick="more('salad')">More</button>
             </section>
             <section>

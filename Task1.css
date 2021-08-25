@@ -9,11 +9,20 @@ html {
   font-family: 'Roboto', sans-serif;
 }
 
-.image {
-  height: 350px;
-  padding-left: 34%;
-  padding-top: 2%;
+.image-parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: white;
+  height: 400px;
+}
+
+.image {
+  min-height: 350px;
+  margin-top: 2.5%;
   overflow-y: auto;
 }
 
@@ -102,11 +111,42 @@ html {
 
 .control section #less {
   background-color: orange;
-  margin-left: 2.5%;
 }
 
 .control section #more {
   background-color: white;
   margin-left: 1%;
+}
+
+@media screen and (max-width: 1440px) {
+  .image {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .image {
+    margin-top: 10%;
+  }
+  .image .top {
+    width: 290px;
+  }
+  .image .salad {
+    width: 290px;
+    margin-left: 15px;
+  }
+  .image .bacon {
+    width: 290px;
+  }
+  .image .cheese {
+    width: 310px;
+    margin-left: 5px;
+  }
+  .image .meat {
+    width: 280px;
+  }
+  .image .bottom {
+    width: 290px;
+  }
 }
 /*# sourceMappingURL=Task1.css.map */
