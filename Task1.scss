@@ -4,11 +4,12 @@
 }
 html{
     background-color: chocolate;
+    overflow: hidden;
 }
 .image{
     height: 350px;
     padding-left: 34%;
-    padding-top: 2.5%;
+    padding-top: 2%;
     background-color: white;
     overflow-y: auto;
     .top{
