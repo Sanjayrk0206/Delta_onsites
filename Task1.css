@@ -1,1 +1,103 @@
-/* No CSS *//*# sourceMappingURL=Task1.css.map */
+* {
+  margin: 0;
+  height: 100%;
+}
+
+.image {
+  height: 350px;
+  padding-left: 34%;
+  padding-top: 4%;
+  overflow-y: auto;
+}
+
+.image .top {
+  margin-left: 15px;
+  margin-bottom: 2.5px;
+  width: 390px;
+  height: 100px;
+  background-color: #e5b73b;
+  border-top-left-radius: 75px;
+  border-top-right-radius: 75px;
+}
+
+.image .bacon {
+  margin: 5px;
+  margin-left: 15px;
+  width: 390px;
+  height: 12px;
+  background-color: brown;
+}
+
+.image .cheese {
+  margin: 5px;
+  margin-left: 0;
+  width: 420px;
+  height: 15px;
+  background-color: gold;
+  border-radius: 10px;
+}
+
+.image .meat {
+  margin: 5px;
+  margin-left: 19px;
+  width: 380px;
+  height: 40px;
+  background-color: #654321;
+  border-radius: 10px;
+}
+
+.image .salad {
+  margin: 5px;
+  margin-left: 10px;
+  width: 400px;
+  height: 20px;
+  border-radius: 10px;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(green), to(yellowgreen));
+  background-image: linear-gradient(to bottom right, green, yellowgreen);
+}
+
+.image .bottom {
+  width: 390px;
+  margin: 5px;
+  margin-left: 15px;
+  height: 50px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #e5b73b;
+}
+
+.control {
+  background-color: chocolate;
+  text-align: center;
+  height: 205px;
+  padding-top: 1%;
+}
+
+.control h4 {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-bottom: 1.5%;
+}
+
+.control section {
+  font-weight: bolder;
+  height: 25px;
+  padding: 0.5%;
+}
+
+.control section button {
+  border: none;
+  padding-inline: 1%;
+}
+
+.control section #less {
+  background-color: orange;
+  margin-left: 2.5%;
+}
+
+.control section #more {
+  background-color: white;
+  margin-left: 1%;
+}
+/*# sourceMappingURL=Task1.css.map */
