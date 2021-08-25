@@ -3,6 +3,7 @@ html{
     background-image: url('https://wallpaperaccess.com/full/1385482.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100%;
 }
 body{
     display: flex;
@@ -16,9 +17,9 @@ section{
     border-radius: 10px;
 }
 .Login{
-    display: block;
+    display: none;
     margin-top: 10%;
-    width: 20%;
+    width: 250px;
     h2{
         margin-left: 1%;
 
@@ -59,9 +60,9 @@ section{
     }
 }
 .Signup{
-    display: none;
+    display: flex;
     justify-content: center;
-    width: 60%;
+    width: 750px;
     padding-left: 5%;
     margin-top: 5%;
     div{
