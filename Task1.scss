@@ -2,10 +2,14 @@
     margin: 0;
     height: 100%;
 }
+html{
+    background-color: chocolate;
+}
 .image{
     height: 350px;
     padding-left: 34%;
-    padding-top: 1%;
+    padding-top: 3%;
+    background-color: white;
     overflow-y: auto;
     .top{
         margin-left: 15px;
