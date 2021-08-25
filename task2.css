@@ -1,1 +1,160 @@
-/* No CSS *//*# sourceMappingURL=task2.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap");
+html {
+  background-image: url("https://wallpaperaccess.com/full/1385482.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section {
+  color: white;
+  padding: 2.5%;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-family: 'Nunito', sans-serif;
+  border-radius: 10px;
+}
+
+.Login {
+  display: block;
+  margin-top: 10%;
+  width: 20%;
+}
+
+.Login h2 {
+  margin-left: 1%;
+}
+
+.Login input {
+  width: 95%;
+  margin: 2%;
+  margin-inline: 0;
+  padding: 1%;
+  padding-inline: 2.5%;
+  border-radius: 5px;
+  border: none;
+}
+
+.Login input:hover {
+  outline-color: royalblue;
+  -webkit-box-shadow: 0px 0px 5px 2px royalblue;
+          box-shadow: 0px 0px 5px 2px royalblue;
+}
+
+.Login input:focus {
+  outline-color: royalblue;
+  -webkit-box-shadow: 0px 0px 5px 2px royalblue;
+          box-shadow: 0px 0px 5px 2px royalblue;
+}
+
+.Login input[type='submit'] {
+  width: 40%;
+  margin-top: 10%;
+  border: none;
+  background-color: yellowgreen;
+}
+
+.Login input[type='submit']:hover {
+  outline-color: yellowgreen;
+  -webkit-box-shadow: 0px 0px 5px 1px yellowgreen;
+          box-shadow: 0px 0px 5px 1px yellowgreen;
+}
+
+.Login .signup {
+  float: right;
+  color: white;
+}
+
+.Login .signup:hover {
+  color: yellowgreen;
+}
+
+.Signup {
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 60%;
+  padding-left: 5%;
+  margin-top: 5%;
+}
+
+.Signup div {
+  width: 50%;
+}
+
+.Signup input {
+  width: 85%;
+  margin: 2%;
+  margin-inline: 0;
+  padding: 1%;
+  padding-inline: 2.5%;
+  border-radius: 5px;
+  border: none;
+}
+
+.Signup input:hover {
+  outline-color: royalblue;
+  -webkit-box-shadow: 0px 0px 5px 2px royalblue;
+          box-shadow: 0px 0px 5px 2px royalblue;
+}
+
+.Signup input:focus {
+  outline-color: royalblue;
+  -webkit-box-shadow: 0px 0px 5px 2px royalblue;
+          box-shadow: 0px 0px 5px 2px royalblue;
+}
+
+.Signup input[type='submit'] {
+  width: 40%;
+  padding: 2%;
+  margin-top: 10%;
+  border: none;
+  background-color: yellowgreen;
+}
+
+.Signup input[type='submit']:hover {
+  outline-color: yellowgreen;
+  -webkit-box-shadow: 0px 0px 5px 1px yellowgreen;
+          box-shadow: 0px 0px 5px 1px yellowgreen;
+}
+
+.Signup .viasignup h2 {
+  margin-left: 15%;
+  margin-bottom: 0%;
+}
+
+.Signup .viasignup label {
+  margin-left: 15%;
+  font-size: 13px;
+}
+
+.Signup .viasignup button {
+  width: 70%;
+  height: 25px;
+  margin: 5%;
+  margin-inline: 15%;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Signup .viasignup .login {
+  font-size: 20px;
+  float: right;
+  margin-top: 17%;
+  margin-right: 15%;
+}
+
+.Signup .viasignup .login:hover {
+  color: yellowgreen;
+}
+/*# sourceMappingURL=task2.css.map */

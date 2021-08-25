@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://kit.fontawesome.com/23aecf465a.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <link rel="stylesheet" href="task2.css">
+        <script src="task2.js"></script>
+    </head>
+    <body>
+        <section class="Login" id="Login">
+            <form action="">
+                <h2>Login</h2>
+                <label for="email">Email Id</label>
+                <input type="email" id="email" name="Email"required/>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="Password"required/>
+                <input type="submit" value="Login"/>
+            </form>
+            <label class="signup" onclick="signup('signup')">Signup <i class="fas fa-angle-right"></i></label>
+        </section>
+        <section class="Signup" id="Signup">
+            <div>
+                <form action="">
+                    <h2>Signup</h2>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="Name" required/>
+                    <label for="email">Email Id</label>
+                    <input type="email" id="email" name="Email"required/>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="Password"required/>
+                    <label for="cpassword">Confirm Password</label>
+                    <input type="password" id="cpassword" name="Cpassword"required/>
+                    <input type="submit" value="Signup"/>
+                </form>
+            </div>
+            <div class="viasignup">
+                <h2>Signup Via</h2>
+                <label>Through the following login Quickly...</label>
+                <button style="margin-top: 10%;background-color:#d44638;">Google</button>
+                <button style="background-color: #4267B2;">Facebook</button>
+                <button style="background-color:#1DA1F2;">Twitter</button>
+                <label class="login"  onclick="signup('login')"><i class="fas fa-chevron-left"></i> Login</label>
+            </div>
+        </section>
+    </body>
+</html>
