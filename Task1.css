@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
   margin: 0;
   height: 100%;
@@ -5,6 +6,7 @@
 
 html {
   background-color: chocolate;
+  font-family: 'Roboto', sans-serif;
 }
 
 .image {
@@ -80,11 +82,11 @@ html {
   padding-top: 1%;
 }
 
-.control h4 {
+.control #head {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  margin-bottom: 1.5%;
+  margin-bottom: 3%;
 }
 
 .control section {

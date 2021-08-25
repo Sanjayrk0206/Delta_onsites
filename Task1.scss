@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     margin: 0;
     height: 100%;
 }
 html{
     background-color: chocolate;
+    font-family: 'Roboto', sans-serif;
 }
 .image{
     height: 350px;
@@ -66,9 +68,9 @@ html{
     text-align: center;
     height: fit-content;
     padding-top: 1%;
-    h4{
+    #head{
         height: fit-content;
-        margin-bottom: 1.5%;
+        margin-bottom: 3%;
     }
     section{
         font-weight: bolder;
