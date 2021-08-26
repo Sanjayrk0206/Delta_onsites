@@ -1,3 +1,11 @@
+<?php 
+session_start();
+
+	include("../connection.php");
+	include("function.php");
+    
+	$user_data = check_login($conn);
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -9,10 +17,13 @@
     </head>
     <body onload="generate()">
         <nav>
+            <div class="name-block">
+                <label><i class="fas fa-user-circle"></i>  <?php echo $user_data['Name']?></label>
+            </div>
             <div class="nav-block">
                 <label style="border-right: 2px solid grey;" onclick="generate()"><i class="fas fa-redo-alt" style="margin-right: 5%;"></i>Refresh</label>
                 <label style="border-right: 2px solid grey;"><i class="fas fa-save" style="margin-right: 5%;"></i>Save</label>
-                <label><i class="fas fa-sign-out-alt"></i></label>
+                <a href="../logout.php"><label><i class="fas fa-sign-out-alt"></i></label></a>
             </div>
         </nav>
         <section id="color">

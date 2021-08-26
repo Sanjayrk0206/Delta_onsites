@@ -16,10 +16,21 @@ nav {
   background-color: white;
 }
 
-nav .nav-block {
+nav .name-block {
+  display: block;
+  width: 100%;
+  height: 50%;
+}
+
+nav .name-block label {
+  font-size: 25px;
   float: right;
   margin-right: 1%;
-  margin-top: 3.5%;
+}
+
+nav .nav-block {
+  float: right;
+  display: block;
   width: 250px;
 }
 
@@ -30,6 +41,14 @@ nav .nav-block label {
 }
 
 nav .nav-block label:hover {
+  color: yellowgreen;
+}
+
+nav .nav-block a label {
+  color: #000;
+}
+
+nav .nav-block a label:hover {
   color: yellowgreen;
 }
 
