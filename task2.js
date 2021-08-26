@@ -6,6 +6,6 @@ function signup(x){
         signup.style.display="none";
     }else{
         login.style.display="none";
-        signup.style.display="flex";
+        signup.style.display="block";
     }
 }
